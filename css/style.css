@@ -1,0 +1,49 @@
+/* Estilo para o corpo da página */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #F4F7FE;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+  }
+  
+  /* Estilo para o contêiner principal */
+  .container {
+    background: rgba(255, 255, 255, 0.9);
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+  }
+  
+  /* Estilo para o cabeçalho principal (Título) */
+  h1 {
+    font-weight: 700;
+    color: #1363C6;
+  }
+  
+  /* Estilo para o campo de entrada de CEP */
+  input {
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin: 10px 0;
+  }
+  
+  /* Estilo para o botão de consulta */
+  button {
+    background-color: #1363C6;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  /* Estilo para o local dos resultados */
+  #resultado {
+    margin-top: 20px;
+  }
+  
